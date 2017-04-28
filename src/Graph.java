@@ -1,4 +1,4 @@
-public class Graph {
+public interface Graph {
 	// ---- Methods ---- //
 
 	public void addEdge(Edge e);

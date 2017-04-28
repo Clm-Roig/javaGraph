@@ -19,11 +19,11 @@ public class DirectedEdge extends Edge {
 
 	// ---- Methods ---- //
 	public void changeDirection() {
-		if(this.directedTo == super.v1) {
-			this.directedTo = super.v2;
+		if(this.directedTo == super.getVert1()) {
+			this.directedTo = super.getVert2();
 		} 
 		else {
-			this.directedTo = super.v1;
+			this.directedTo = super.getVert1();
 		}
 	}
 }

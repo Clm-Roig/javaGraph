@@ -1,6 +1,7 @@
 public class Vertex {
 	// ---- Attributes ---- //
 	Object value;
+	Graph graph;
 
 	// ---- Constructors ---- //
 
