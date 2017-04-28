@@ -1,3 +1,5 @@
+package graph;
+
 public class DirectedEdge extends Edge {
 	// ---- Attributes ---- //
 	private Vertex directedTo;
@@ -13,6 +15,8 @@ public class DirectedEdge extends Edge {
 		this.directedTo = v2;
 	}
 	// ---- Get / Set ---- //
+
+	/* return the Vertex pointed by the Edge*/
 	public Vertex getDirectedTo() {
 		return this.directedTo;
 	}

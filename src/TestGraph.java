@@ -1,25 +1,25 @@
-import java.util.ArrayList;
+package graph;
 
 public class TestGraph implements Graph {
 	// ---- Attributes ---- //
-	private ArrayList<Edge> listEdge;
-	private ArrayList<Vertex> listVertex;
+	private Edge[] listEdge;
+	private Vertex[] listVertex;
 
 	// ---- Constructors ---- //
 	public TestGraph(){}
 
-	public TestGraph(ArrayList<Edge> edges, ArrayList<Vertex> vertex){
+	public TestGraph(Edge[] edges, Vertex[] vertex){
 		this.listEdge = edges;
 		this.listVertex = vertex;
 	}
 
 	// ---- Get / Set ---- //
 
-	public ArrayList<Edge> getEdge(){
+	public Edge[] getEdge(){
 		return this.listEdge;
 	}
 
-	public ArrayList<Vertex> getVertex(){
+	public Vertex[] getVertex(){
 		return this.listVertex;
 	}
 
