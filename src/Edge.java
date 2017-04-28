@@ -1,7 +1,8 @@
-public class Edge {
+public abstract class Edge {
 	// ---- Attributes ---- //
 	private Vertex vert1;
 	private Vertex vert2;
+	private Graph graph;
 
 	// ---- Constructors ---- //
 	public Edge(){}
@@ -28,7 +29,11 @@ public class Edge {
 		this.vert2 = v;
 	}
 
+	public void setGraph(Graph g){
+		this.graph = g;
+	}
+
 	// ---- Methods ---- //
 
-	
+
 }

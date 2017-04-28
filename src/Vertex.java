@@ -19,6 +19,9 @@ public class Vertex {
 		this.value = o;
 	}
 
+	public void setGraph(Graph g){
+		this.graph = g;
+	}
 	// ---- Methods ---- //
 
 

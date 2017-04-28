@@ -1,11 +1,9 @@
 public class Graph {
-	// ---- Attributes ---- //
-
-
-	// ---- Constructors ---- //
-
-	// ---- Get / Set ---- //
-
 	// ---- Methods ---- //
-	
+
+	public void addEdge(Edge e);
+	public void rmvEdge(Edge e);
+	public void addVertex(Vertex v);
+	public void rmvVertex(Vertex v);
+
 }
